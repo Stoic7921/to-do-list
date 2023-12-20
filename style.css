@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(td2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 100;
+    padding: 290px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    background-color: wheat;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: red;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+
+li a.checked {
+    background-color: wheat;
+    color: rgb(144, 135, 222);
+    text-decoration: line-through;
+}
+
+input {
+    width: 270px;
+    padding:8px;
+    border: 2px solid royalblue;
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    width: 280px;
+    height: 45px;
+    background: linear-gradient(blue);
+    border: none;
+    font-size: 20px;
+    color: rgb(205, 210, 255);
+}
+
+button:hover {
+    background: red;
+}
